@@ -16,11 +16,12 @@
          <div class="row">
          <div class="col-md-6">
          <div class="form-group">
-                        <label>Enter ID:</label> 
-                <asp:TextBox ID="TextBox1" CssClass="form-control" runat="server"></asp:TextBox>
+                        <label>Enter ID:</label>
                         
                     </div>
                     <div class="form-group">
+                   
+                        <asp:TextBox ID="TextBrandID" runat="server"></asp:TextBox>
                    
                     </div>
          </div>
@@ -46,7 +47,7 @@
           <div class="col-md-6">
           
              <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" style="left: 0px; top: 19px">
                 <h4 class="alert-info text-center"> All Brands</h4>
                 <br />
                  <asp:TextBox ID="txtFilterGrid1Record" style="border:2px solid blue" CssClass="form-control" runat="server" placeholder="Search Brand...." onkeyup="Search_Gridview(this)"></asp:TextBox>
